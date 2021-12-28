@@ -27,5 +27,7 @@ jobs:
       uses: stCarolas/setup-maven@v4.2
       with:
         maven-version: 3.8.1
-    - name: Test with Maven
+    - name: Verify with Maven
       run: mvn clean verify
+    - name: Test with Maven
+      run: mvn clean test
