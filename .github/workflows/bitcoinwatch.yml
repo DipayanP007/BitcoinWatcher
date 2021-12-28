@@ -28,4 +28,4 @@ jobs:
       with:
         maven-version: 3.8.1
     - name: Test with Maven
-      run: mvn clean test
+      run: mvn clean verify
